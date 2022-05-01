@@ -1,0 +1,40 @@
+body {
+  padding: 10px;
+}
+.filtered-area {
+  display: flex;
+}
+
+#filteredUsers {
+  margin-right: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  margin-top: 20px;
+}
+
+#filteredStatics {
+  margin-right: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  margin-top: 20px;
+} 
+
+img {
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul {
+  margin-right: 10px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Desafio Modulo 01 - IGTI</title>
+</head>
+<body>
+  <h1>Pesquisa de usuários</h1>
+  <form>
+    <input id="inputSearch" type="text" placeholder="Busca">
+    <button id="buttonSearch" disabled>Buscar</button>
+  </form>
+  <div class="filtered-area">
+    <div id="filteredUsers">
+      <h2><span id="foundUsers">Nenhum usuário filtrado</span> </h2>
+      <div id="tabUsers"></div/>
+    </div>
+    <div id="filteredStatics">
+      <h2> <span id="foundStatics">Nada a ser exibido</span></h2>
+      <div id="tabStatics"></div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
